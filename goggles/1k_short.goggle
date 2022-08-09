@@ -9,7 +9,6 @@ $discard,site=goo.gl
 $discard,site=youtube.com
 $discard,site=youtu.be
 $discard,site=googletagmanager.com
-$discard,site=reddit.com/user/google
 $discard,site=googlevideo.com
 $discard,site=googleusercontent.com
 $discard,site=google-analytics.com

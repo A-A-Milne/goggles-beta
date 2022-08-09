@@ -1,28 +1,42 @@
-! name: No Pinterest
-! description: Rerank results to remove pages / threads hosted on Pinterest.
-! public: true
-! author: Goggles 101
-! avatar: #de0320
+! name: Degoogle
+! description: Rerank results to remove pages related to Google
+! public: false
+! author: A.A. Milne
+! avatar: #0a7c41
 
-$discard,site=investor.pinterestinc.com
-$discard,site=pinterest.at
-$discard,site=pinterest.ca
-$discard,site=pinterest.ch
-$discard,site=pinterest.cl
-$discard,site=pinterest.co.kr
-$discard,site=pinterest.co.uk
-$discard,site=pinterest.com
-$discard,site=pinterest.com.au
-$discard,site=pinterest.com.mx
-$discard,site=pinterest.de
-$discard,site=pinterest.dk
-$discard,site=pinterest.es
-$discard,site=pinterest.fr
-$discard,site=pinterest.ie
-$discard,site=pinterest.it
-$discard,site=pinterest.nz
-$discard,site=pinterest.ph
-$discard,site=pinterest.pt
-$discard,site=pinterest.ru
-$discard,site=pinterestcareers.com
-/pinterest/$discard,site=instagram.com
+$discard,site=google.com
+$discard,site=goo.gl
+$discard,site=youtube.com
+$discard,site=youtu.be
+$discard,site=googletagmanager.com
+$discard,site=googlevideo.com
+$discard,site=googleusercontent.com
+$discard,site=google-analytics.com
+$discard,site=googledomains.com
+$discard,site=forms.gle
+$discard,site=google.co.in
+$discard,site=googlesyndication.com
+$discard,site=tinyurl.com
+$discard,site=googleapis.com
+$discard,site=googleadservices.com
+$discard,site=youtube-nocookie.com
+$discard,site=google.cn
+$discard,site=google.de
+$discard,site=google.co.jp
+$discard,site=google.fr
+$discard,site=google.ru
+$discard,site=google.ca
+$discard,site=googletagservices.com
+$discard,site=google.es
+$discard,site=android.com
+$discard,site=google.com.tw
+$discard,site=google.com.br
+$discard,site=google.com.mx
+$discard,site=google.com.sg
+$discard,site=google.com.tr
+$discard,site=google.com.au
+$discard,site=google.co.th
+$discard,site=google.it
+$discard,site=google.com.sa
+$discard,site=google.co.kr
+$discard,site=google.com.ar
