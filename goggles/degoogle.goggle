@@ -1,0 +1,48 @@
+! name: Degoogle
+! description: Rerank results to remove pages related to Google
+! public: false
+! author: A.A. Milne
+! avatar: #0a7c41
+
+$discard,site=google.com
+$discard,site=google.*
+$discard,site=*.google
+$discard,site=goo.gl
+$discard,site=youtube.com
+$discard,site=youtu.be
+$discard,site=facebook.com/Google/
+$discard,site=instagram.com/google/
+$discard,site=twitter.com/Google
+$discard,site=googletagmanager.com
+$discard,site=reddit.com/user/google
+$discard,site=googlevideo.com
+$discard,site=googleusercontent.com
+$discard,site=google-analytics.com
+$discard,site=googledomains.com
+$discard,site=forms.gle
+$discard,site=google.co.in
+$discard,site=googlesyndication.com
+$discard,site=tinyurl.com
+$discard,site=googleapis.com
+$discard,site=googleadservices.com
+$discard,site=youtube-nocookie.com
+$discard,site=google.cn
+$discard,site=google.de
+$discard,site=google.co.jp
+$discard,site=google.fr
+$discard,site=google.ru
+$discard,site=google.ca
+$discard,site=googletagservices.com
+$discard,site=google.es
+$discard,site=android.com
+$discard,site=google.com.tw
+$discard,site=google.com.br
+$discard,site=google.com.mx
+$discard,site=google.com.sg
+$discard,site=google.com.tr
+$discard,site=google.com.au
+$discard,site=google.co.th
+$discard,site=google.it
+$discard,site=google.com.sa
+$discard,site=google.co.kr
+$discard,site=google.com.ar
