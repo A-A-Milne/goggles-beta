@@ -9,7 +9,6 @@ $discard,site=goo.gl
 $discard,site=youtube.com
 $discard,site=youtu.be
 $discard,site=googletagmanager.com
-$discard,site=reddit.com/user/google
 $discard,site=googlevideo.com
 $discard,site=googleusercontent.com
 $discard,site=google-analytics.com
@@ -41,3 +40,4 @@ $discard,site=google.it
 $discard,site=google.com.sa
 $discard,site=google.co.kr
 $discard,site=google.com.ar
+$discard,google$inurl

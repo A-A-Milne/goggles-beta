@@ -40,3 +40,4 @@ $discard,site=google.it
 $discard,site=google.com.sa
 $discard,site=google.co.kr
 $discard,site=google.com.ar
+$discard,google$inurl
